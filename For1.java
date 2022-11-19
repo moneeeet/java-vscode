@@ -3,7 +3,6 @@ public class For1 {
         for(int i = 0; i < 10; i++) {
             int n = i + 1;
             System.out.println("繰り返し:" + n + "周目");
-
         }
     }
 }
