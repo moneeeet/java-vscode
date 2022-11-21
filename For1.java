@@ -3,15 +3,18 @@ public class For1 {
         for(int i = 1; i <= 10; i++) {
             //int n = i + 1;
             //System.out.println("繰り返し:" + n + "周目");
+
             /* 
             if (i == 5) { この位置にbreakを記述したら４周目まで表示される
-                break;
+                break;　ループを中断する
             }
              */
-            System.out.println("繰り返し:" + i + "周目");
             if (i == 5) { //ここなら５周目まで表示される
-                break;
+                System.out.println("次のループに進む");
+                continue; //次のループ（周）に進む。ここでは、５周目を飛ばして10周目まで表示される。continuw以下は実行せず、１行目に戻って実行し始める
             }
+            System.out.println("繰り返し:" + i + "周目");
+            
             
                 
         }
