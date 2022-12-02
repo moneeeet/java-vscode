@@ -26,7 +26,7 @@ public class Array1 {
     //    customer2 = new String[]{"鈴木太郎", "suzuki_taro@xxxx.com", "090-0000-9999"}; // new 型名[]{}で初期化する場合、宣言と初期化を分けられる
         
         String[] customer2 = new String[]{"鈴木太郎", "suzuki_taro@xxxx.com", "090-0000-9999", "男"}; // new 型名[]で初期化する場合、宣言と初期化を同時に行う。上の23行と24行を１行で実行する書き方。
-        System.out.println(customer2[0]);
+        System.out.println(customer2[0]); //人を増やすときはcustomer3,4と増やしていく
         System.out.println(customer2[1]);
         System.out.println(customer2[2]);
         System.out.println(customer2[3]);
